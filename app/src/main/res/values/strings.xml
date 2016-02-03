@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">WashingtonPostChallenge</string>
+    <string name="sort_by_name">Sort By Name</string>
+    <string name="sort_by_date">Sort By Date</string>
+    <string name="post_title_key">Title</string>
+    <string name="post_content_key">Content</string>
+    <string name="post_date_key">Date</string>
+
+    <string name="error_network">There was a problem finding your request. Please try again.</string>
+    <string name="error_conversion">There was a problem finding your request. Please try again.</string>
+    <string name="error_server">There was a problem finding your request. Please try again.</string>
+    <string name="error_unexpected">There was a problem finding your request. Please try again.</string>
+
+</resources>

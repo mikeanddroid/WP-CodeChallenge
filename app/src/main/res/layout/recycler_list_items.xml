@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <LinearLayout
+        android:id="@+id/post_content_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/translucent_grey3"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/postTitleHolder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/translucent_grey"
+            android:minHeight="44dp">
+
+            <com.mike.givemewingzz.washingtonpostchallenge.customviews.RobotoTextView
+                android:id="@+id/post_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ripple_drawable"
+                android:padding="8dp"
+                android:text="@string/post_title_key"
+                android:textColor="@android:color/white"
+                android:textSize="22sp"
+                app:foundFont="@integer/font_roboto_light" />
+
+        </FrameLayout>
+
+        <com.mike.givemewingzz.washingtonpostchallenge.customviews.RobotoTextView
+            android:id="@+id/post_date"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent_grey"
+            android:padding="8dp"
+            android:text="@string/post_date_key"
+            android:textColor="@color/orange_3"
+            android:textSize="12sp"
+            app:foundFont="@integer/font_roboto_bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
